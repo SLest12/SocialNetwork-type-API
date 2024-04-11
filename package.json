@@ -1,7 +1,7 @@
 {
   "name": "18socialnetwork",
   "version": "1.0.1",
-  "description": "Mongoose back-end project - Main",
+  "description": "Social network using moongose",
   "main": "server.js",
   "license": "MIT",
   "scripts": {

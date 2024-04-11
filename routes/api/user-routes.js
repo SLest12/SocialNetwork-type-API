@@ -1,3 +1,4 @@
+// /api/users/:id/friends
 const router = require("express").Router();
 const {
   getAllUser,

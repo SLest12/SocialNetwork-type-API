@@ -74,8 +74,7 @@ const userController = {
         if (!dbUserData) {
           return res.status(404).json({ message: "No user with this id!" });
         }
-        // BONUS: get ids of user's `thoughts` and delete them all
-        // $in to find specific things
+      // remove user's associated thoughts
         return Thought.deleteMany({ _id: { $in: dbUserData.thoughts } });
       })
       .then(() => {
